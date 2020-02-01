@@ -2,6 +2,13 @@
 
 > 一个轻量的方便扩展的Vue上传组件, 他没有界面, 所以你可以使用`solt`自定义界面
 
+![vue-solt-upload](https://img.shields.io/npm/v/vue-solt-upload.svg?style=flat-square)
+![vue-solt-upload](https://img.shields.io/npm/dt/vue-solt-upload.svg)
+![JS gzip size](http://img.badgesize.io/https://unpkg.com/vue-solt-upload/dist/vue-solt-upload.min.js?compression=gzip&label=gzip%20size:%20JS&style=flat-square)
+![CSS gzip size](http://img.badgesize.io/https://unpkg.com/vue-solt-upload/dist/styles/vue-solt-upload.css?compression=gzip&label=gzip%20size:%20CSS&style=flat-square)
+
+![demo](https://user-images.githubusercontent.com/28108111/73586684-bb623400-44eb-11ea-9dc8-670860c8e82a.png)
+
 ## Install
 
 Using npm:
