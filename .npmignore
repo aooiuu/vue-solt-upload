@@ -1,0 +1,11 @@
+.vscode
+.github
+
+# 忽略目录
+examples/
+packages/
+build/
+node_modules/
+
+# 忽略指定文件
+*.map
