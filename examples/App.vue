@@ -4,7 +4,7 @@
     <solt-upload action="/upload" style="display: flex;">
       <template slot-scope="scope">
         <button @click="scope.selectFile()">upload</button>
-        <input type="text" :value="scope.file.name || ''" style="flex: 1;" />
+        <input type="text" :value="scope.file.name" style="flex: 1;" />
       </template>
     </solt-upload>
     <!-- 完整 -->
@@ -31,7 +31,6 @@
         <img
           :src="file.url"
           class="upload-img"
-          style="margin-top:10px; margin: 10px auto; display: block; max-width: 80%;"
           @click="selectFile"
         />
       </template>

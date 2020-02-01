@@ -44,3 +44,9 @@ span {
   background-color: #9e9e9e;
   padding: 0 5px;
 }
+
+.upload-img {
+  margin: 10px auto;
+  display: block;
+  max-width: 80%;
+}

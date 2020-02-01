@@ -18,15 +18,15 @@ npm install vue-solt-upload --save
 ```
 
 ```javascript
-import SoltUpload from '../packages/index.js';
+import SoltUpload from 'vue-solt-upload';
 
 Vue.use(SoltUpload);
 ```
 
 Using a script tag:
 
-```
-<script type="text/javascript" src="vue-solt-upload.min.js"></script>
+```html
+<script type="text/javascript" src="https://unpkg.com/vue-solt-upload/dist/vue-solt-upload.min.js"></script>
 ```
 
 ## attribute
@@ -102,7 +102,6 @@ Using a script tag:
         <img
           :src="file.url"
           class="upload-img"
-          style="margin-top:10px; margin: 10px auto; display: block; max-width: 80%;"
           @click="selectFile"
         />
       </template>
